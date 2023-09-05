@@ -51,4 +51,54 @@ El uso de camara para envio de imagenes aun debe ser valorado, talvez no sea pos
 - pre (Rama de testeo de primeros prototipos)
 - pro (Rama de todo que ya esta en su ultimo testeo de pruebas)
 - main (Rama oficial donde solo debe tener los desarollos concluidos y funcionales como su documentación, no se aceptara en esta rama nada sin documentar o codigo sin comentarios, si comentamos codigo)
-...
+
+## Softwares a utilizar
+
+#### Preferiblemente vamos a utilizar softwares gratuitos o libres, como sistema operativo se recomenda el uso de Ubuntu o derivados de Linux/Debian.
+
+1. Para crear codigo y subir codigo
+- Para hacer upload siempre usamos la IDE oficial de Arduino.
+- Se puede hacer uso de VScode para componer los codigos si es mas comodo.
+
+2. Para prototipos de construcción de PCBs
+- Primeramente Fritizing aunque sea de pago y por si necesário LibrePCB.
+- En un ultimo caso podemos utilizar TinkerCad.
+
+3. Github Desktop para gestión del repositório o el terminal.
+
+4. Radio y Comunicaciones
+- GQRX para depuración o debug de frequencias enviadas.
+- FLDIGI para decodificación de datos porm radio o WEFAX.
+- CubicSDR si necesário monitorear mas de una frequencia a la vez.
+- RTL_433 si por acaso necesitamos mirar si nuestro L.O.R.A esta abierto.
+
+5. Diseños Marketing o otros
+- Usar inkscape para vectores.
+- Usar Gimp para imagenes.
+- Usar Libre Office para documentaciones plantillas o lo que se necesite.
+
+## Operaciones de Banda de Radio
+
+Las operaciones de banda de radio deben respetar las limitaciones de nuestro L.O.R.A o sea que vamos a utilizar en principal la frequencia de (433MHz) para operaciones de comunicación de telemetria y si necesário de imagenes.
+
+No vamos enviar audio o archivos de audio por radio.
+
+Si la frequencia de 433MHz no esta permitida en el país de montagen y prototipos del nanosatelite entonces se debe plantear el uso de L.O.R.A en otras frequencias disponibles como (868 MHz) o (915 MHz) recordando que frequencias más altas tienen menor capacidad de distancias.
+
+## Operaciones de testeo en tierra
+
+1. Las primeras operaciones (outlab) fuera de laboratorio deben de ser hechas en espacios libres de interferencia por fuentes de radiofrequencia, como antenas de telefonia, retransmisores de radio, repetidores de ondas.
+
+2. Los primeros testeos de altitude con uso de globo de Helio (He) deben ser hechos con los mismos asegurados por lineas de control, donde se podrá recuperar, subir y bajar de modo controlado y poder valorar medidas de campo.
+
+3. Con seguridad de que se debe hacer un real lanzamiento de un globo de Helio (He) para comprobar sistemas y el prototipo se debe hacer cuando si tenga más de un protótipo testeado y aprobado por pelo menos 5 testeos con lo metodo anterior en dias distintos con considicones meteorologicas distintas.
+
+- a. Se debe consultar las leyes, legislaciones, permisos y condiciones del pais.
+- b. Se debe pedir permiso y obtener el concenso de las autoridades.
+- c. No se debe salir de los parametros de la ley.
+- d. El prototipo debe estar atado a un paracaidas suficientemente fuerte que debe estar dentro del globo, de modo que cuando este esplote por la presión de altitud el prototipo no sea destruido en la caida y no sea capaz de crear ningun daño a terceros.
+- e. Ya se debe poder rastrear y localizar el prototipo con precisión minima.
+- f. Se debe ser capaz de capturar y guardar toda telemetria para estudo.
+- g. Un veiculo de busqueda debe estar disponivel y acompañar las posiciones del globo.
+
+
