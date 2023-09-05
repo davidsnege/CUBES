@@ -49,8 +49,31 @@ El uso de camara para envio de imagenes aun debe ser valorado, talvez no sea pos
 - - feature (Nuevo feature que ha salido bien en la rama anterior)
 - - hotfix (Correción de errores o bugs que se necesita hacer de algun feature ya existente)
 - pre (Rama de testeo de primeros prototipos)
+- - feature (Nuevo feature que ha salido bien en la rama anterior)
+- - hotfix (Correción de errores o bugs que se necesita hacer de algun feature ya existente)
 - pro (Rama de todo que ya esta en su ultimo testeo de pruebas)
+- - feature (Nuevo feature que ha salido bien en la rama anterior)
+- - hotfix (Correción de errores o bugs que se necesita hacer de algun feature ya existente)
 - main (Rama oficial donde solo debe tener los desarollos concluidos y funcionales como su documentación, no se aceptara en esta rama nada sin documentar o codigo sin comentarios, si comentamos codigo)
+
+## Versionamento de Software
+
+Se debe utilziar la seguinte estructura.
+
+| C | D | M | A | S | T |
+| - | - | - | - | - | - |
+| Controle | Día   | Mes | Año | Semana | Tipo |
+| 0001 | 01 | 01 | 2023 | 01 | b |
+
+El nombre de esta version se traduce : 0010101202301b
+
+- Los tipos son: b (beta) a (alpha) r (release) 
+
+1. Las versiones b (beta) son reservadas a versiones casi estables para pruebas de features aun inestables.
+
+2. Las versiones a (alpha) son reservadas a versiones no estables y que no van a ser corregidas lanzadas para corregir algun hotfix detectado en versiones anteriores.
+
+3. Las versiones r (release) son las versiones estables finales de cada ciclo.
 
 ## Softwares a utilizar
 
