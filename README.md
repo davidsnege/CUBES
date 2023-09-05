@@ -51,3 +51,4 @@ El uso de camara para envio de imagenes aun debe ser valorado, talvez no sea pos
 - pre (Rama de testeo de primeros prototipos)
 - pro (Rama de todo que ya esta en su ultimo testeo de pruebas)
 - main (Rama oficial donde solo debe tener los desarollos concluidos y funcionales como su documentación, no se aceptara en esta rama nada sin documentar o codigo sin comentarios, si comentamos codigo)
+...
