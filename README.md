@@ -41,3 +41,13 @@ El uso de baterias y cargadores por medio de placas solares se debe investigar c
 
 El uso de camara para envio de imagenes aun debe ser valorado, talvez no sea possible el envio de grandes cantidades de datos con L.O.R.A y esto debe ser pensado.
 
+## Uso del Repositorio GIT
+
+1. Ramas permitidas para desarollo
+- desarollo (Rama principal de inicio de los proyectos se debe especificar una rama abajo para el trabajo)
+- - conceptual (En fase de desarollo primario y conceptual, no incluido aun en el proyecto)
+- - feature (Nuevo feature que ha salido bien en la rama anterior)
+- - hotfix (Correción de errores o bugs que se necesita hacer de algun feature ya existente)
+- pre (Rama de testeo de primeros prototipos)
+- pro (Rama de todo que ya esta en su ultimo testeo de pruebas)
+- main (Rama oficial donde solo debe tener los desarollos concluidos y funcionales como su documentación, no se aceptara en esta rama nada sin documentar o codigo sin comentarios, si comentamos codigo)
