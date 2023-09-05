@@ -1,6 +1,6 @@
 
 ![Screenshot](https://github.com/davidsnege/CUBES/blob/main/img/blanco.png?raw=true)
-# CUBES
+
 Comunicaciones Unificadas Basadas en Espacio y Satelites - ESPAÑA 
 
 ## Que se propone
