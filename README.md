@@ -19,4 +19,25 @@ El objectivo final es que tengamos un nanosatelite funcional con control de esta
 
 La orbita un no esta definida, por lo que puede ser estacionaria o polar, se debe pensar en las dos opciones y esto no debe de ser un problema, el nanosatelite debe ser capaz de operar en las dos situaciones.
 
+## Tecnologia para investigar y usar
+
+Aqui nos vamos a limitar a Arduino en un primer momento, puede que en un futuro no dejemos de valorar Raspiberry o otras tecnologias como controladores, pero en principio por la experiencia y bajo coste nos vamos basar en Arduino y sus modulos.
+
+El modulo L.O.R.A debe ser el principal a ser investigado al máximo incluso si necesário escribindo una libreria propria. 
+
+Un modulo de GPS será util en conjunto con un modulo de brujula magnetica para posicionamiento del satelite, asi como el modulo de acelerometro de 3 ejes para una maior precisión.
+
+La investigación y construcción de una interfaz giroscopica para orientación será valorada para ser lo menor y mas ligera posible.
+
+En etapas más avanzadas deberemos adquirir una CNC pequeña de coste bajo para poder fabricar y testear nuestras proprias boards y hacer pruebas mejores con los componentes.
+
+También vamos valorar la adquisición de una CNC laser para la confección de mascaras para boards.
+
+El uso de los principios de Faraday para proteger los componentes internos de interferencias deben ser puestos a prueba.
+
+La capacidad de dispersión de calor o frio extremos debe ser valorada para garantizar la continuidad de funcionamento de los componentes.
+
+El uso de baterias y cargadores por medio de placas solares se debe investigar con cuidado para que no tengamos periodos sin energia y nuestro satelite quede sin contacto o mal orientado, lo que podria ocasionar un daño al sensor de la camara si este estuvier orientado hacia el Sol.
+
+El uso de camara para envio de imagenes aun debe ser valorado, talvez no sea possible el envio de grandes cantidades de datos con L.O.R.A y esto debe ser pensado.
 
