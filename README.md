@@ -58,7 +58,7 @@ El uso de camara para envio de imagenes aun debe ser valorado, talvez no sea pos
 
 ## Versionamento de Software
 
-Se debe utilziar la seguinte estructura.
+Se debe utilizar la seguinte estructura.
 
 | C | D | M | A | S | T |
 | - | - | - | - | - | - |
