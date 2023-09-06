@@ -114,7 +114,7 @@ Si la frequencia de 433MHz no esta permitida en el país de montagen y prototipo
 
 2. Los primeros testeos de altitude con uso de globo de Helio (He) deben ser hechos con los mismos asegurados por lineas de control, donde se podrá recuperar, subir y bajar de modo controlado y poder valorar medidas de campo.
 
-3. Con seguridad de que se debe hacer un real lanzamiento de un globo de Helio (He) para comprobar sistemas y el prototipo se debe hacer cuando si tenga más de un protótipo testeado y aprobado por pelo menos 5 testeos con lo metodo anterior en dias distintos con considicones meteorologicas distintas.
+3. Con seguridad de que se debe hacer un real lanzamiento de un globo de Helio (He) para comprobar sistemas y el prototipo se debe hacer cuando si tenga más de un protótipo testeado y aprobado por pelo menos 5 testeos con lo metodo anterior en dias distintos con condiciones meteorologicas distintas.
 
 - a. Se debe consultar las leyes, legislaciones, permisos y condiciones del pais.
 - b. Se debe pedir permiso y obtener el concenso de las autoridades.
