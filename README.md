@@ -137,7 +137,7 @@ Si la frequencia de (433MHz) no esta permitida en el país de montagen y prototi
 | P | 10cm | 20cm   | 30cm | 30cm | 30cm  |
 | K | 1.3k | 2.6k   | 3.9k | 4.2k | 5.5k  |
 
-```valores aproximados en peso y tamaño.``````
+```valores aproximados en peso y tamaño.```
 
 - Segun la NASA las categorias son estas:
 
