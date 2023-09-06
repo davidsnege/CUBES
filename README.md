@@ -93,7 +93,7 @@ El nombre de esta version se traduce : 0010101202301b
 
 4. Radio y Comunicaciones
 - GQRX para depuración o debug de frequencias enviadas.
-- FLDIGI para decodificación de datos porm radio o WEFAX.
+- FLDIGI para decodificación de datos por radio o WEFAX.
 - CubicSDR si necesário monitorear mas de una frequencia a la vez.
 - RTL_433 si por acaso necesitamos mirar si nuestro L.O.R.A esta abierto.
 
