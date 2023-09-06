@@ -19,6 +19,8 @@ El objectivo final es que tengamos un nanosatelite funcional con control de esta
 
 La orbita un no esta definida, por lo que puede ser estacionaria o polar, se debe pensar en las dos opciones y esto no debe de ser un problema, el nanosatelite debe ser capaz de operar en las dos situaciones.
 
+- En todo texto vamos nos referir a nuestros satelites como (nanosatelites) o (cubesats) aunque se pueda trabajar con otras categorias que no sea la (1U) la nomenclatura utilizada va ser (nanosatelite) para dejar más claro y fluido el texto.
+
 ## Tecnologia para investigar y usar
 
 Aqui nos vamos a limitar a Arduino en un primer momento, puede que en un futuro no dejemos de valorar Raspiberry o otras tecnologias como controladores, pero en principio por la experiencia y bajo coste nos vamos basar en Arduino y sus modulos.
@@ -126,6 +128,27 @@ Si la frequencia de (433MHz) no esta permitida en el país de montagen y prototi
 - f. Se debe ser capaz de capturar y guardar toda telemetria para estudo.
 - g. Un veiculo de busqueda debe estar disponivel y acompañar las posiciones del globo.
 
+## Tipos y categorias de Satelites
+
+|   | 1U | 2U | 3U | 6U | 12U | 
+| - | -  | -  | -  | -  | -   |
+| L | 10cm | 10cm   | 10cm | 10cm | 20cm  |
+| A | 10cm | 10cm   | 10cm | 20cm | 20cm  |
+| P | 10cm | 20cm   | 30cm | 30cm | 30cm  |
+| K | 1.3k | 2.6k   | 3.9k | 4.2k | 5.5k  |
+
+```valores aproximados en peso y tamaño.``````
+
+- Segun la NASA las categorias son estas:
+
+- - Satélites grandes: Más de 1.000 kg
+- - Satélites medianos: 500-1.000 kg
+- - Satélites pequeños:
+- - Minisatélite: 100-500 kg
+- - Microsatélite: 10-100 kg
+- - Nanosatélite: 1-10 kg
+- - Picosatélite: Menos de 1 kg
+
 ## Prestaciones de un nanosatelite y usos
 
 1. Observación de la tierra
@@ -175,7 +198,7 @@ Si la frequencia de (433MHz) no esta permitida en el país de montagen y prototi
 
 -  Además de las soluciones comerciales, los CubeSats pueden emplearse para observación espacial, misiones interplanetarias, pruebas de sistemas en órbita o investigaciones biomédicas, así como ser una puerta de entrada para el desarrollo de programas espaciales de países que aún no hayan arrancado su carrera espacial. 
 
-## Inversiones y Capital
+## Inversiones, Inversores y Capital
 
 En un primer momento no esperamos utilizar modelos de Crowdfunding o otros modelos de arrecadación de recursos por el simples hecho de que planteamos en realidad que este proyecto sea profesional y cuente con inversores en modo startup o inversiones de capital para la formación de una empresa (CUBES) especializada en la creación de este tipo de nanosatelites.
 
