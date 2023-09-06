@@ -124,4 +124,6 @@ Si la frequencia de 433MHz no esta permitida en el país de montagen y prototipo
 - f. Se debe ser capaz de capturar y guardar toda telemetria para estudo.
 - g. Un veiculo de busqueda debe estar disponivel y acompañar las posiciones del globo.
 
+## Operaciones en Orbita
 
+Aun no definido...pendiente del proyecto concluido, inversores, personal, etc...
