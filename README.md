@@ -106,7 +106,9 @@ Las operaciones de banda de radio deben respetar las limitaciones de nuestro L.O
 
 No vamos enviar audio o archivos de audio por radio.
 
-Si la frequencia de 433MHz no esta permitida en el país de montagen y prototipos del nanosatelite entonces se debe plantear el uso de L.O.R.A en otras frequencias disponibles como (868 MHz) o (915 MHz) recordando que frequencias más altas tienen menor capacidad de distancias.
+Si la frequencia de (433MHz) no esta permitida en el país de montagen y prototipos del nanosatelite entonces se debe plantear el uso de L.O.R.A en otras frequencias disponibles como (868 MHz) o (915 MHz) recordando que frequencias más altas tienen menor capacidad de distancias.
+
+- - Aun que no este permitido el uso en tierra por la frequencia de (433MHz) en operaciones reales en orbita se debe utilizar esta por su estabilidad y mejor rango de distáncia para operaciones reales, por el simple echo que en el espacio el satelite no esta en juzgo de leyes de transmision de radio frequencias.
 
 ## Operaciones de testeo en tierra
 
