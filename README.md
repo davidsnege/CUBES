@@ -64,7 +64,7 @@ Se debe utilizar la seguinte estructura.
 
 | C | D | M | A | S | T |
 | - | - | - | - | - | - |
-| Controle | Día   | Mes | Año | Semana | Tipo |
+| Control | Día   | Mes | Año | Semana | Tipo |
 | 0001 | 01 | 01 | 2023 | 01 | b |
 
 El nombre de esta version se traduce : 0010101202301b
