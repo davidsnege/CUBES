@@ -29,8 +29,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.25"
-     inkscape:cx="2292"
-     inkscape:cy="1542"
+     inkscape:cx="1528"
+     inkscape:cy="1286"
      inkscape:window-width="1920"
      inkscape:window-height="1016"
      inkscape:window-x="0"
@@ -8583,4 +8583,14 @@ hBgLBALBNECIsUAgEEwDhBgLBALBNOD/Az98EuTqWaJuAAAAAElFTkSuQmCC
          id="tspan7636"
          style="stroke-width:0;fill:#00979c;fill-opacity:1"
          x="45.889698"
-         y="43.790359">1U</tspan></text></g></svg>
+         y="43.790359">1U</tspan></text><text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:9.42906px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';text-align:justify;fill:#666666;fill-opacity:1;stroke:#c87137;stroke-width:0"
+       x="482.30035"
+       y="218.43832"
+       id="text9068"><tspan
+         sodipodi:role="line"
+         id="tspan9066"
+         style="stroke-width:0"
+         x="482.30035"
+         y="218.43832">External Frame view</tspan></text></g></svg>
