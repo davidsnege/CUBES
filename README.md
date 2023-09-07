@@ -128,7 +128,7 @@ Si la frequencia de (433MHz) no esta permitida en el país de montagen y prototi
 - f. Se debe ser capaz de capturar y guardar toda telemetria para estudo.
 - g. Un veiculo de busqueda debe estar disponivel y acompañar las posiciones del globo.
 
-## Tipos y categorias de Satelites
+## Tipos y categorias de Satelites (cubesats o nanosats)
 
 |   | 1U | 2U | 3U | 6U | 12U | 
 | - | -  | -  | -  | -  | -   |
