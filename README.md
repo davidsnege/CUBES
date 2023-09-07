@@ -212,4 +212,6 @@ El precio para venta del desarollo a un cliente podria llegar a €200 mil euros
 
 La vida util de un nanosatelite hoy es estimada en 5 hasta 15 años y eso depende de la tecnologia empleada y las protecciones de redundancia atribuidas al proyecto, este tiempo util y su bajo precio hacen aceptables los lanzamientos programados a cada 5 años con los beneficios que se puede obtener.
 
+## Maquetación actual
+
 ![Screenshot](https://github.com/davidsnege/CUBES/blob/main/img/schemas/esquematico_montagen.jpg?raw=true)
