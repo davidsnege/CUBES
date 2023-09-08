@@ -206,8 +206,6 @@ Sabemos que salir de la etapa de prototipo hasta la empresa es un salto enorme, 
 
 Los costes de mantener un despacho con los equipos, personal, impuestos y cuentas en marcha no esta aun en nuestro alcance, por lo tanto en un futuro si que necesitamos de inversores, serios, comprometidos con este proyecto y personal calificado para los desarollos, es importante que toda tecnologia desarollada en este proyecto permanezca de manera confidencial y lejos de personas ajenas, por este motivo el repositorio debe permanecer privado y toda manufactura de construcción debe ser mantenida y desarollada internamente.
 
-En función de las especificaciones por lo que hemos valorado se podria producir un nanosatelite funcional por algo llegando a los €500 mil euros en un primer momento, y con la tecnologia ya desarollada este valor podria llegar a €100 mil euros por nanosatelite.
-
 El precio para venta del desarollo a un cliente podria llegar a €200 mil euros, en consideración a cambios y especificaciones, esto es distinto del precio de lanzamiento del satelite que puede tener disparidades conforme se elije la empresa a que vá poner el satelite en orbita y el tipo de orbita, en SpaceX se puede llegar a lanzar (en este momento) un nanosatelite de tipo 1U por hasta €15 mil euros.
 
 La vida util de un nanosatelite hoy es estimada en 5 hasta 15 años y eso depende de la tecnologia empleada y las protecciones de redundancia atribuidas al proyecto, este tiempo util y su bajo precio hacen aceptables los lanzamientos programados a cada 5 años con los beneficios que se puede obtener.
