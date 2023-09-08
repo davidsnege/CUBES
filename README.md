@@ -79,7 +79,7 @@ El nombre de esta version se traduce : 0010101202301b
 
 ## Softwares a utilizar
 
-#### Preferiblemente vamos a utilizar softwares gratuitos o libres, como sistema operativo se recomenda el uso de Ubuntu o derivados de Linux/Debian, si no es posible utilizar softwares y sistemas gratuitos utilizar lo que se pueda en su momento siempre que se tenga la licenciad e uso.
+```` Preferiblemente vamos a utilizar softwares gratuitos o libres, como sistema operativo se recomenda el uso de Ubuntu o derivados de Linux/Debian, si no es posible utilizar softwares y sistemas gratuitos utilizar lo que se pueda en su momento siempre que se tenga la licenciad e uso.````
 
 1. Para crear codigo y subir codigo
 - Para hacer upload siempre usamos la IDE oficial de Arduino.
