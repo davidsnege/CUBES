@@ -43,7 +43,7 @@ El uso de baterias y cargadores por medio de placas solares se debe investigar c
 
 El uso de camara para envio de imagenes aun debe ser valorado, talvez no sea possible el envio de grandes cantidades de datos con L.O.R.A y esto debe ser pensado.
 
-## Uso del Repositorio GIT
+## Uso del repositorio git
 
 1. Ramas permitidas para desarollo
 - desarollo (Rama principal de inicio de los proyectos se debe especificar una rama abajo para el trabajo)
@@ -58,7 +58,7 @@ El uso de camara para envio de imagenes aun debe ser valorado, talvez no sea pos
 - - hotfix (Correción de errores o bugs que se necesita hacer de algun feature ya existente)
 - main (Rama oficial donde solo debe tener los desarollos concluidos y funcionales como su documentación, no se aceptara en esta rama nada sin documentar o codigo sin comentarios, si comentamos codigo)
 
-## Versionamento de Software
+## Versionamento de software
 
 Se debe utilizar la seguinte estructura.
 
@@ -79,7 +79,7 @@ El nombre de esta version se traduce : 0010101202301b
 
 ## Softwares a utilizar
 
-#### Preferiblemente vamos a utilizar softwares gratuitos o libres, como sistema operativo se recomenda el uso de Ubuntu o derivados de Linux/Debian.
+#### Preferiblemente vamos a utilizar softwares gratuitos o libres, como sistema operativo se recomenda el uso de Ubuntu o derivados de Linux/Debian, si no es posible utilizar softwares y sistemas gratuitos utilizar lo que se pueda en su momento siempre que se tenga la licenciad e uso.
 
 1. Para crear codigo y subir codigo
 - Para hacer upload siempre usamos la IDE oficial de Arduino.
@@ -102,7 +102,7 @@ El nombre de esta version se traduce : 0010101202301b
 - Usar Gimp para imagenes.
 - Usar Libre Office para documentaciones plantillas o lo que se necesite.
 
-## Operaciones de Banda de Radio
+## Operaciones de banda de radio
 
 Las operaciones de banda de radio deben respetar las limitaciones de nuestro L.O.R.A o sea que vamos a utilizar en principal la frequencia de (433MHz) para operaciones de comunicación de telemetria y si necesário de imagenes.
 
@@ -128,7 +128,7 @@ Si la frequencia de (433MHz) no esta permitida en el país de montagen y prototi
 - f. Se debe ser capaz de capturar y guardar toda telemetria para estudo.
 - g. Un veiculo de busqueda debe estar disponivel y acompañar las posiciones del globo.
 
-## Tipos y categorias de Satelites (cubesats o nanosats)
+## Tipos y categorias de satelites (cubesats o nanosats)
 
 |   | 1U | 2U | 3U | 6U | 12U | 
 | - | -  | -  | -  | -  | -   |
@@ -198,7 +198,7 @@ Si la frequencia de (433MHz) no esta permitida en el país de montagen y prototi
 
 -  Además de las soluciones comerciales, los CubeSats pueden emplearse para observación espacial, misiones interplanetarias, pruebas de sistemas en órbita o investigaciones biomédicas, así como ser una puerta de entrada para el desarrollo de programas espaciales de países que aún no hayan arrancado su carrera espacial. 
 
-## Inversiones, Inversores y Capital
+## Inversiones, inversores y capital
 
 En un primer momento no esperamos utilizar modelos de Crowdfunding o otros modelos de arrecadación de recursos por el simples hecho de que planteamos en realidad que este proyecto sea profesional y cuente con inversores en modo startup o inversiones de capital para la formación de una empresa (CUBES) especializada en la creación de este tipo de nanosatelites.
 
