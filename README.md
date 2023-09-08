@@ -219,5 +219,3 @@ La vida util de un nanosatelite hoy es estimada en 5 hasta 15 años y eso depend
 ![Screenshot](https://github.com/davidsnege/CUBES/blob/main/3D/Cubes%20Mounted%20Frame/Cubes%20Frame%20Mounted.png?raw=true)
 ![Screenshot](https://github.com/davidsnege/CUBES/blob/main/3D/Cubes%20Drawer/Cubes%20Drawer.png?raw=true)
 ![Screenshot](https://github.com/davidsnege/CUBES/blob/main/3D/Cubes%20Mounted%20Frame/Cubes%20Frame%20Mounted%20and%20Drawer.png?raw=true)
-
-
