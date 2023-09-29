@@ -141,12 +141,12 @@ void loop() {
             lcd.setCursor(4, 1);
             lcd.print(SdPOS);
           }else{
-            Serial.print ("+");                  //DEC
-            Serial.print ("70");                 //DEC: 45° (grados)
-            Serial.print ((char)223);            //° (char)223
-            Serial.print ("00");                 //DEC: 00' (min)
+            Serial.print ("+");                  
+            Serial.print ("70");                 
+            Serial.print ((char)223);            
+            Serial.print ("00");                 
             Serial.print (":");
-            Serial.print ("00");                 //DEC: 00''(sec) 
+            Serial.print ("00");                  
             Serial.print ("#");
             lcd.setCursor(0, 1);
             lcd.print("DEC");                  
