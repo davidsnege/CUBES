@@ -50,6 +50,8 @@ String SdPOS = "";
 String SrOK = "0";
 String SdOK = "0";
 byte grado = (char)223;
+
+int CMs;
 /*-------------------------------------------*/
 /*RUN SETUP----------------------------------*/
 /*-------------------------------------------*/
@@ -74,7 +76,7 @@ void loop() {
     /*-------------------------------------------*/
     /*GET DATA FROM STELLARIUM-------------------*/
     /*-------------------------------------------*/ 
-    int i=0;
+    delay(5);
         while (Serial.available()){
           delay(5);
           char a=Serial.read();            
@@ -84,44 +86,25 @@ void loop() {
     /*-------------------------------------------*/
     /*END DATA FROM STELLARIUM-------------------*/
     /*-------------------------------------------*/     
-    delay(5);
+    /*-------------------------------------------*/
+    /*INICIALIZE POS TELESCOPE-------------------*/
+    /*-------------------------------------------*/
     /*-------------------------------------------*/    
     /*GET OBJECT POSITION SR---------------------*/ /*-- Format input: #:Q#:Sr05:16:42# --*/
     /*-------------------------------------------*/     
         int posSr=stringOne.indexOf("Sr");
         if (posSr>=0) {
-            String srTEMP = stringOne;
+          String srTEMP = "";
+          SrPOS = "";
+            srTEMP = stringOne;
             srTEMP.remove(15,9);
             srTEMP.remove(0,7); 
             srTEMP += "#";
-            SrPOS = srTEMP;   
-            delay(5);
-            SrOK = "1";             
-        }else{
-            //SrOK = "0";      
+            SrPOS = srTEMP;
+            delay(5);            
+            SrOK = "1";
         }
-    delay(5); 
-    /*-------------------------------------------*/    
-    /*GET OBJECT POSITION SD---------------------*/ /*-- Format input: :Sd+45ß59:35# --*/
-    /*-------------------------------------------*/ 
-        int posSd=stringOne.indexOf(":Sd");
-        if (posSd>=0) {
-            String sdTEMP = stringOne;
-            sdTEMP.remove(13,8);
-            sdTEMP.remove(0,3);     
-            SdPOS = sdTEMP;
-            delay(5);
-            SdOK = "1";          
-        }else{
-            //SdOK = "0";  
-        }
-    delay(5);    
-    /*-------------------------------------------*/
-    /*-------------------------------------------*/
-    
-    /*-------------------------------------------*/
-    /*INICIALIZE POS TELESCOPE-------------------*/
-    /*-------------------------------------------*/ 
+    delay(5);  
     /*POS GR TELE--------------------------------*/     
         if (stringOne == "#:GR#"){
           if(SrPOS != ""){
@@ -134,6 +117,22 @@ void loop() {
             lcd.print("AR");            
           }
         }
+    delay(5);        
+    /*-------------------------------------------*/    
+    /*GET OBJECT POSITION SD---------------------*/ /*-- Format input: :Sd+45ß59:35# --*/
+    /*-------------------------------------------*/ 
+        int posSd=stringOne.indexOf(":Sd");
+        if (posSd>=0) {
+          String sdTEMP = "";
+          SdPOS = "";
+            sdTEMP = stringOne;
+            sdTEMP.remove(13,8);
+            sdTEMP.remove(0,3);     
+            SdPOS = sdTEMP;
+            delay(5);          
+            SdOK = "1";          
+        }
+    delay(5);        
     /*POS GD TELE--------------------------------*/      
         if (stringOne == "#:GD#"){   
           if(SdPOS != ""){
@@ -143,7 +142,7 @@ void loop() {
           }else{
             Serial.print ("+");                  
             Serial.print ("70");                 
-            Serial.print ((char)223);            
+            Serial.print ((char)223);   //"\xC2\xB0" //(char)223        
             Serial.print ("00");                 
             Serial.print (":");
             Serial.print ("00");                  
@@ -152,29 +151,37 @@ void loop() {
             lcd.print("DEC");                  
           }      
         }
+    delay(5);        
     /*-------------------------------------------*/    
     /*RESET DEBUG--------------------------------*/
     /*-------------------------------------------*/  
         /*--Serial 1 or 0 ------*/
         if(SrOK == "1"){
-          Serial.print("1"); 
+          Serial.print("1#");
+          SrOK = "0";
         }
         if(SdOK == "1"){
-          Serial.print("1");     
+          Serial.print("1#");
+          SdOK = "0"; 
+        }        
+
+        int posMS=stringOne.indexOf(":MS#");
+        if (posMS>=0) { 
+          Serial.print("0");
         }
-        if(SrOK == "1"){
-          if(SdOK == "1"){
-            Serial.print("0");
-            SrOK = "0";
-            SdOK = "0";      
-          }
-        }
+
+        int posCM=stringOne.indexOf(":CM#");
+        if (posCM>=0) { 
+          Serial.print("0");
+        }   
+
+    delay(5);        
     /*-------------------------------------------*/
     /*-------------------------------------------*/
-    /*-------------------------------------------*/    
-    
+    /*-------------------------------------------*/       
     /*--Clear stringOne--*/    
-        stringOne = "";
+    stringOne = "";
+    delay(5);
 } 
 /*-------------------------------------------*/
 /*END LOOP-----------------------------------*/
