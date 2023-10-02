@@ -26,9 +26,9 @@ Arduino     Servo No. 2
 
 #include <Servo.h>
 
-Servo servo1;  // create servo object to control a servo
-Servo servo2;
-Servo servo3;
+Servo servoX;  // create servo object to control a servo
+Servo servoY;
+Servo servoZ;
 
 ADXL345 adxl; //variable adxl is an instance of the ADXL345 library
 
@@ -39,10 +39,10 @@ int mappedRawX, mappedRawY, mappedRawZ;
 void setup() {
   Serial.begin(9600);
   adxl.powerOn();
-  servo1.attach(11);
-  servo2.attach(10);
-  servo3.attach(9);
-  servo3.write(0);
+  servoX.attach(11);
+  servoY.attach(10);
+  servoZ.attach(9);
+  servoZ.write(0);
 }
 
 void loop() {
@@ -68,19 +68,19 @@ void loop() {
 //    Serial.print(" mappedRawY = "); Serial.println(mappedRawY); // trate data with offset
 //    Serial.print(" mappedRawZ = "); Serial.println(mappedRawZ); // trate data with offset
 
-//    Serial.print(" ServoX = ");Serial.println(servo1.read());
-//    Serial.print(" ServoY = ");Serial.println(servo2.read());
+//    Serial.print(" ServoX = ");Serial.println(servoX.read());
+//    Serial.print(" ServoY = ");Serial.println(servoY.read());
   
 
-  servo1.write(180 - mappedRawX);
-  servo2.write(180 - mappedRawY);
+  servoX.write(180 - mappedRawX);
+  servoY.write(180 - mappedRawY);
   delay(300);
 
 // SECURE PARACHUTE SYSTEM (remove else for prod)
-  if(servo2.read() > 120 | servo2.read() < 25){
-    servo3.write(180);
+  if(servoY.read() > 120 | servoY.read() < 25){
+    servoZ.write(180);
   }else{
-    servo3.write(0);
+    servoZ.write(0);
   }
   
   Serial.print(" mappedRawX = "); Serial.print(mappedRawX); // raw data with offset
