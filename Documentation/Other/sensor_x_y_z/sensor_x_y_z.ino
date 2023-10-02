@@ -21,6 +21,9 @@ Arduino     Servo No. 2
   D6          (last wire for control - might be white color)
 */
 
+
+/*The first way to controll rockets and parachutes command*/
+
 #include <Wire.h>
 #include <ADXL345.h>
 
@@ -77,7 +80,7 @@ void loop() {
   delay(300);
 
 // SECURE PARACHUTE SYSTEM (remove else for prod)
-  if(servoY.read() > 120 | servoY.read() < 25){
+  if(servoY.read() > 120 || servoY.read() < 25){
     servoZ.write(180);
   }else{
     servoZ.write(0);
