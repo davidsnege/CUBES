@@ -1,4 +1,6 @@
 
+![licence](https://github.com/davidsnege/CUBES/blob/main/DesignMKT/img/creativeCommons/CC_BY-NC-ND.svg.png?raw=true)
+
 ## Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0)
 
 # Advertencia.
