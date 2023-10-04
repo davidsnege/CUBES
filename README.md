@@ -70,3 +70,5 @@ En un primer momento no esperamos utilizar modelos de Crowdfunding o otros model
 Sabemos que salir de la etapa de prototipo hasta una empresa es un salto enorme, y por eso no tenemos pretensiones de tan pronto tener inversores, eso conllevaria plazos, presiones, maquetación a la marcha y lo que necesitamos antes de nada es tener un proyecto estable y viable para poder ofrecer a posibles inversores alguna solución que sea factible y rentable con tecnologia y conocimientos ya basados en solidez.
 
 Es importante que toda tecnologia desarollada en este proyecto permanezca de manera confidencial y lejos de personas ajenas, por este motivo el repositorio debe permanecer privado y toda manufactura de construcción debe ser mantenida y desarollada internamente.
+
+![licence](https://github.com/davidsnege/CUBES/blob/main/DesignMKT/img/creativeCommons/CC_BY-NC-ND.svg.png?raw=true)
