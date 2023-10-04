@@ -5,6 +5,20 @@ Comunicaciones Unificadas Basadas en Espacio
 
 # Satellites
 
+## Que se propone
+
+La propuesta es crear un modelo de cubeSat de tamaño 1U basado en su primer versión en arduino y modulos de comunicación por rádio, sobre todo L.O.R.A que es una tecnologia que me ha llamado la atención.
+
+La pretensión es llevar a cabo este proyecto sin plazos, mantener el repositorio organizado y de una forma que sea de fácil interpretación por otros que lo necesiten en un futuro.
+
+La licencia inicial es "No comercial y no distribuible o modificable" por el simples hecho de que no puedo solo controlar y hacerme responsable por monitorear y ayudar en desarollo de otras personas.
+
+El objectivo final es que tengamos un nanosatelite funcional con control de estabilización, orientación de la camara hacia el planeta, envio de datos de telemetria, envio de imagem actual a cada 5 minutos en baja resolución para pruebas, gestión de energia y cargado de baterias.
+
+La orbita aun no esta definida, por lo que puede ser estacionaria o polar, se debe pensar en las dos opciones y esto no debe de ser un problema, el nanosatelite debe ser capaz de operar en las dos situaciones.
+
+- En todo texto vamos nos referir a nuestros satelites como (nanosatelites) o (cubesats) aunque se pueda trabajar con otras categorias que no sea la (1U) la nomenclatura utilizada va ser (nanosatelite) para dejar más claro y fluido el texto.
+
 ## Tecnologia para investigar y usar
 
 Aqui nos vamos a limitar a Arduino en un primer momento, puede que en un futuro no dejemos de valorar Raspiberry o otras tecnologias como controladores, pero en principio por la experiencia y bajo coste nos vamos basar en Arduino y sus modulos.
