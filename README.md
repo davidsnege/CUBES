@@ -1,7 +1,7 @@
 
 ![Screenshot](https://github.com/davidsnege/CUBES/blob/main/DesignMKT/img/negro_L.png?raw=true)
 
-Comunicaciones Unificadas Basadas en Espacio y Satelites
+Comunicaciones Unificadas Basadas en Espacio
 
 ## Que se propone
 
@@ -196,7 +196,7 @@ Si la frequencia de (433MHz) no esta permitida en el país de montagen y prototi
 
 ## Inversiones, inversores y capital
 
-En un primer momento no esperamos utilizar modelos de Crowdfunding o otros modelos de arrecadación de recursos por el simples hecho de que planteamos en realidad que este proyecto sea profesional y cuente con inversores en modo startup o inversiones de capital para la formación de una empresa (CUBES) especializada en la creación de este tipo de nanosatelites.
+En un primer momento no esperamos utilizar modelos de Crowdfunding o otros modelos de arrecadación de recursos por el simples hecho de que planteamos en realidad que este proyecto sea profesional y cuente con inversores en modo startup o inversiones de capital para la formación de una empresa (CUBE) especializada en la creación de este tipo de nanosatelites y en un futuro desarollo de cohetes de pequeño tamaño para la inserción en baja orbita de hasta 200km de satelites tamaño 1U.
 
 Sabemos que salir de la etapa de prototipo hasta la empresa es un salto enorme, y por eso no tenemos pretensiones de tan pronto tener inversores, eso conllevaria plazos, presiones, maquetación a la marcha y lo que necesitamos antes de nada es tener un proyecto estable y viable para poder ofrecer al mercado alguna solución que sea factible y utilizable por futuros clientes.
 
