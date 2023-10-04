@@ -18,6 +18,8 @@ Comunicaciones Unificadas Basadas en Espacio
 - - hotfix (Correción de errores o bugs que se necesita hacer de algun feature ya existente)
 - main (Rama oficial donde solo debe tener los desarollos concluidos y funcionales como su documentación, no se aceptara en esta rama nada sin documentar o codigo sin comentarios, si comentamos codigo)
 
+- Comentários, Documentación, Pesquisas etc... deben ser mantenidos en idioma Castellano/Español de España, con excepción a los termos usados en la industria aeroespacial y termos proprios usados en desarrollo de software.
+
 ## Versionamento de software
 
 Se debe utilizar la seguinte estructura.
