@@ -137,7 +137,7 @@ Si la frequencia de (433MHz) no esta permitida en el país de montagen y prototi
 
 -  Además de las soluciones comerciales, los CubeSats pueden emplearse para observación espacial, misiones interplanetarias, pruebas de sistemas en órbita o investigaciones biomédicas, así como ser una puerta de entrada para el desarrollo de programas espaciales de países que aún no hayan arrancado su carrera espacial. 
 
-## Maquetación actual
+## Desarollo actual
 
 ![Screenshot](https://github.com/davidsnege/CUBES/blob/main/Satellites/schemas/esquematico_montagen.jpg?raw=true)
 ![Screenshot](https://github.com/davidsnege/CUBES/blob/main/Satellites/3D/Blender_view.png?raw=true)
