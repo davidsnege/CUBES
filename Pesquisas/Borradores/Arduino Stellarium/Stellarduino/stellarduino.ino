@@ -37,12 +37,12 @@
 #include "LiquidCrystal_I2C.h"
 #include <Wire.h>
 /*-------------------------------------------*/
-/*INICIALIZE LIBS----------------------------*/
+/*Inicializando Librerias--------------------*/
 /*-------------------------------------------*/
-// initialize the library with the numbers of the interface pins
+// Inicializando la libreria del LCD para conexión I2C
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 /*-------------------------------------------*/
-/*DECLARE VARS-------------------------------*/
+/*Declarando Variables-----------------------*/
 /*-------------------------------------------*/
 String stringOne = "";
 char a;
@@ -54,10 +54,10 @@ byte grado = (char)223;
 
 int CMs;
 /*-------------------------------------------*/
-/*RUN SETUP----------------------------------*/
+/*Executar SETUP-----------------------------*/
 /*-------------------------------------------*/
 void setup() {
-  // put your setup code here, to run once:
+  // El setup
   Serial.begin(9600);
   // Testando I2C LCD
    if (!i2CAddrTest(0x27)) {
@@ -71,11 +71,11 @@ void setup() {
   lcd.clear();
 }
 /*-------------------------------------------*/
-/*RUN LOOP-----------------------------------*/
+/*Executando Bucle---------------------------*/
 /*-------------------------------------------*/
 void loop() { 
     /*-------------------------------------------*/
-    /*GET DATA FROM STELLARIUM-------------------*/
+    /*Recibimos datos de STELLARIUM--------------*/
     /*-------------------------------------------*/ 
     delay(5);
         while (Serial.available()){
@@ -85,13 +85,13 @@ void loop() {
           delay(5);         
         }
     /*-------------------------------------------*/
-    /*END DATA FROM STELLARIUM-------------------*/
+    /*Acabamos de recibir datos de STELLARIUM----*/
     /*-------------------------------------------*/     
     /*-------------------------------------------*/
-    /*INICIALIZE POS TELESCOPE-------------------*/
+    /*Inicializamos las posiciones de telescopio-*/
     /*-------------------------------------------*/
     /*-------------------------------------------*/    
-    /*GET OBJECT POSITION SR---------------------*/ /*-- Format input: #:Q#:Sr05:16:42# --*/
+    /*Cogiendo la Pos ARC SR---------------------*/ /*-- Format input: #:Q#:Sr05:16:42# --*/
     /*-------------------------------------------*/     
         int posSr=stringOne.indexOf("Sr");
         if (posSr>=0) {
@@ -106,7 +106,7 @@ void loop() {
             SrOK = "1";
         }
     delay(5);  
-    /*POS GR TELE--------------------------------*/     
+    /*Posición GR TELE----------------------------*/     
         if (stringOne == "#:GR#"){
           if(SrPOS != ""){
             Serial.print(SrPOS);
@@ -120,7 +120,7 @@ void loop() {
         }
     delay(5);        
     /*-------------------------------------------*/    
-    /*GET OBJECT POSITION SD---------------------*/ /*-- Format input: :Sd+45ß59:35# --*/
+    /*Cogiendo la Pos DEC SD---------------------*/ /*-- Format input: :Sd+45ß59:35# --*/
     /*-------------------------------------------*/ 
         int posSd=stringOne.indexOf(":Sd");
         if (posSd>=0) {
@@ -134,7 +134,7 @@ void loop() {
             SdOK = "1";          
         }
     delay(5);        
-    /*POS GD TELE--------------------------------*/      
+    /*Posición GD TELE---------------------------*/      
         if (stringOne == "#:GD#"){   
           if(SdPOS != ""){
             Serial.print(SdPOS);
@@ -154,7 +154,7 @@ void loop() {
         }
     delay(5);        
     /*-------------------------------------------*/    
-    /*RESET DEBUG--------------------------------*/
+    /*Reseteamos DEBUG---------------------------*/
     /*-------------------------------------------*/  
         /*--Serial 1 or 0 ------*/
         if(SrOK == "1"){
@@ -180,16 +180,16 @@ void loop() {
     /*-------------------------------------------*/
     /*-------------------------------------------*/
     /*-------------------------------------------*/       
-    /*--Clear stringOne--*/    
+    /*--Limpiamos stringOne ---------------------*/    
     stringOne = "";
     delay(5);
 } 
 /*-------------------------------------------*/
-/*END LOOP-----------------------------------*/
+/*Se acaba el Bucle--------------------------*/
 /*-------------------------------------------*/
 
 /*-------------------------------------------*/
-/*TEST DE LCD--------------------------------*/
+/*Función de testeo LCD----------------------*/
 /*-------------------------------------------*/
 // I2C Address TEST 
 bool i2CAddrTest(uint8_t addr) {
