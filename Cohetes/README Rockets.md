@@ -48,7 +48,7 @@ Abajo algunos prints de las pantallas del software.
 
 ## Operaciones de testeo en laboratorio
 
-Las operaciones en lab se van a limitar a toda construcción, testeo de hardware, testeo de software, maquetación y simulaciones, esto se da en este momento por limitaciones de espacio y herramientas para ejecución de otros tipos de prueba, todo aparato para testeo mecánico se debe crear, montar, testea, y después poner en prueba el modelo del cohete y sus aparatos.
+Las operaciones en lab se van a limitar a toda construcción, testeo de hardware, testeo de software, maquetación y simulaciones, esto se da en este momento por limitaciones de espacio y herramientas para ejecución de otros tipos de prueba, todo aparato para testeo mecánico se debe crear, montar, testear, y después poner en prueba el cohete y sus perifericos.
 
 ## Operaciones de testeo en campo
 
