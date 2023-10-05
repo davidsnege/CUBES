@@ -1,5 +1,5 @@
 
-![Screenshot](https://github.com/davidsnege/CUBES/blob/main/DesignMKT/img/negro_L.png?raw=true)
+![Screenshot](https://github.com/davidsnege/CUBES/blob/main/Design/img/negro_L.png?raw=true)
 
 Comunicaciones Unificadas Basadas en Espacio
 
@@ -71,4 +71,4 @@ Sabemos que salir de la etapa de prototipo hasta una empresa es un salto enorme,
 
 Es importante que toda tecnologia desarollada en este proyecto permanezca de manera confidencial y lejos de personas ajenas, por este motivo el repositorio debe permanecer privado y toda manufactura de construcción debe ser mantenida y desarollada internamente.
 
-![licence](https://github.com/davidsnege/CUBES/blob/main/DesignMKT/img/creativeCommons/CC_BY-NC-ND.svg.png?raw=true)
+![licence](https://github.com/davidsnege/CUBES/blob/main/Design/img/creativeCommons/CC_BY-NC-ND.svg.png?raw=true)
