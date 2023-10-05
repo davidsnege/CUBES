@@ -34,6 +34,18 @@ Además, durante el proyecto se llevarán a cabo el diseño estructural y el an�
 
 ## Tecnologia para investigar y usar
 
+### Software de Simulado (openRocket)
+
+Open Rocket es nuestro primer paso para entender como funciona en un primer momento un cohete de modelismo, pues las dinámicas de la física envueltos en estos modelos son parecidos en general a un cohete normal, por lo tanto empezaremos con simulaciones, ensaios, testeo de modelos de openRocket.
+
+Abajo algunos prints de las pantallas del software.
+
+![Screenshot](https://github.com/davidsnege/CUBES/blob/main/Cohetes/openRocket/or01.png?raw=true)
+![Screenshot](https://github.com/davidsnege/CUBES/blob/main/Cohetes/openRocket/or02.png?raw=true)
+![Screenshot](https://github.com/davidsnege/CUBES/blob/main/Cohetes/openRocket/or03.png?raw=true)
+![Screenshot](https://github.com/davidsnege/CUBES/blob/main/Cohetes/openRocket/or04.png?raw=true)
+![Screenshot](https://github.com/davidsnege/CUBES/blob/main/Cohetes/openRocket/or05.png?raw=true)
+
 ## Operaciones de testeo en laboratorio
 
 ## Operaciones de testeo en campo
