@@ -35,7 +35,6 @@
 /*INCLUDES-----------------------------------*/
 /*-------------------------------------------*/
 #include "LiquidCrystal_I2C.h"
-#include <Wire.h>
 /*-------------------------------------------*/
 /*Inicializando Librerias--------------------*/
 /*-------------------------------------------*/
@@ -67,7 +66,7 @@ void setup() {
   lcd.backlight();
   lcd.setCursor(0, 0);
   lcd.print("CUBES ARDUSAT");
-  delay(5);
+  delay(500000);
   lcd.clear();
 }
 /*-------------------------------------------*/
@@ -104,6 +103,9 @@ void loop() {
             SrPOS = srTEMP;
             delay(5);            
             SrOK = "1";
+
+
+            
         }
     delay(5);  
     /*Posición GR TELE----------------------------*/     
@@ -113,9 +115,9 @@ void loop() {
             lcd.setCursor(5, 0);
             lcd.print(SrPOS);  
           }else{
-            Serial.print("01:54:23#");
+            Serial.print("00:00:00#");
             lcd.setCursor(0, 0);
-            lcd.print("AR");            
+            lcd.print("AR");                      
           }
         }
     delay(5);        
@@ -131,7 +133,7 @@ void loop() {
             sdTEMP.remove(0,3);     
             SdPOS = sdTEMP;
             delay(5);          
-            SdOK = "1";          
+            SdOK = "1";               
         }
     delay(5);        
     /*Posición GD TELE---------------------------*/      
@@ -142,14 +144,14 @@ void loop() {
             lcd.print(SdPOS);
           }else{
             Serial.print ("+");                  
-            Serial.print ("70");                 
-            Serial.print ((char)223);   //"\xC2\xB0" //(char)223        
+            Serial.print ("00");                 
+            Serial.print ("*");   //"\xC2\xB0" //(char)223        
             Serial.print ("00");                 
             Serial.print (":");
             Serial.print ("00");                  
             Serial.print ("#");
             lcd.setCursor(0, 1);
-            lcd.print("DEC");                  
+            lcd.print("DEC");                             
           }      
         }
     delay(5);        
@@ -168,12 +170,14 @@ void loop() {
 
         int posMS=stringOne.indexOf(":MS#");
         if (posMS>=0) { 
-          Serial.print("0");
+          Serial.print("0"); //0/1/2
+          delay(5); 
         }
 
         int posCM=stringOne.indexOf(":CM#");
         if (posCM>=0) { 
-          Serial.print("0");
+          Serial.print("0"); //0/1/2
+          delay(5); 
         }   
 
     delay(5);        
@@ -183,6 +187,10 @@ void loop() {
     /*--Limpiamos stringOne ---------------------*/    
     stringOne = "";
     delay(5);
+
+
+
+    
 } 
 /*-------------------------------------------*/
 /*Se acaba el Bucle--------------------------*/
